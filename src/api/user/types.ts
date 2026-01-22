@@ -14,4 +14,5 @@ export type LoginResponse = {
   username: string;
   roles: Array<string>;
   accessToken: string;
+  refreshToken: string;
 };
